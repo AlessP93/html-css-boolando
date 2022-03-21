@@ -9,6 +9,11 @@
     margin: auto;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -23,7 +28,7 @@
 .pic-1, .pic-2, .pic-3{
     width: 100%;
     margin-top: 20px;
-    padding: 5px;
+    padding-right: 10px;
     display: block;
 }
 
@@ -36,7 +41,7 @@
     position: absolute;
     color: white;
     display: inline-block;
-    left: 5px;
+    left: 0;
     bottom: 15px;
     
 }
@@ -46,8 +51,11 @@
     position: absolute;
     color: white;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 0;
     left: 35px;
     bottom: 15px;
     
+}
+.tex-1{
+    width: 100%;
 }
