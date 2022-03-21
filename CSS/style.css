@@ -56,6 +56,17 @@ body{
     bottom: 15px;
 }
 
+.sos-2{
+    background-color: green;
+    position: absolute;
+    color: white;
+    display: inline-block;
+    margin-left: 0;
+    left: 0;
+    bottom: 15px;
+
+}
+
 .heart{
     background-color: white;
     position: absolute;
@@ -76,5 +87,5 @@ body{
 
 .price-2{
     font-size: smaller;
-    
+
 }
