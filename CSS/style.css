@@ -36,8 +36,8 @@
     position: absolute;
     color: white;
     display: inline-block;
-    right: 0;
-    top: 0;
+    left: 5px;
+    bottom: 15px;
     
 }
 
@@ -47,5 +47,7 @@
     color: white;
     display: inline-block;
     margin-left: 5px;
+    left: 35px;
+    bottom: 15px;
     
 }
