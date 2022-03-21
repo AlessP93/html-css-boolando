@@ -54,8 +54,27 @@ body{
     margin-left: 0;
     left: 35px;
     bottom: 15px;
-    
 }
+
+.heart{
+    background-color: white;
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 10px;
+    padding: 5px 10px;
+}
+
 .tex-1{
     width: 100%;
+}
+
+.price{
+    color: red;
+    font-size: smaller;
+}
+
+.price-2{
+    font-size: smaller;
+    
 }
