@@ -7,6 +7,8 @@
 .container {
     max-width: 1000px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 body{
@@ -23,18 +25,36 @@ body{
 .col {
     float: left;
     width: calc( 100% / 3);
-}
-
-.pic-1, .pic-2, .pic-3{
-    width: 100%;
-    margin-top: 20px;
-    padding-right: 10px;
-    display: block;
+    padding: 0 4px;
 }
 
 .product {
     position: relative;
 }
+
+.pic-1{
+    width: 100%;
+    display: block;
+}
+
+.pic-2{
+    display: none;
+    width: 100%;
+}
+
+.product:hover .pic-1{
+    display: none;
+}
+
+.product:hover .pic-2{
+    display: block;
+}
+
+
+
+
+
+
 
 .sales {
     background-color: red;
@@ -71,13 +91,14 @@ body{
     background-color: white;
     position: absolute;
     display: inline-block;
-    top: 20px;
-    right: 10px;
+    top: 15px;
+    right: 0;
     padding: 5px 10px;
 }
 
 .tex-1{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .price{
@@ -87,5 +108,5 @@ body{
 
 .price-2{
     font-size: smaller;
-
+    text-decoration: line-through;
 }
